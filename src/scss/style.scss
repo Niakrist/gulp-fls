@@ -1,0 +1,30 @@
+@import 'fonts';
+body {
+    background-color: hotpink;
+
+    @media (max-width:500px) {
+        background-color: aqua;
+    }
+
+
+    p {
+        color: green;
+
+        @media (max-width: 500px) {
+            color: red;
+        }
+
+        span {
+            font-weight: 900;
+            @media (max-width: 500px) {
+                font-size: 30px;
+            }
+
+            @media (max-width: 1000px) {
+                font-size: 15px;
+            }
+        }
+
+
+    }
+}
